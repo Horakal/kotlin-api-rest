@@ -1,4 +1,4 @@
-package com.example.meal.api.expection
+package com.example.meal.api.exception
 
 class FoodNotFoundException(message: String) : RuntimeException(message) {
 }
